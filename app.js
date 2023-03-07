@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     CargaNoticias()
 })
 
-const cargaNoticia () => {
+const CargaNoticias = () => {
     const options = {
         method: 'GET',
         headers: {
